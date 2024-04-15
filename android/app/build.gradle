@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.tis"
-    compileSdk flutter.compileSdkVersion
+    compileSdk 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -36,7 +36,7 @@ android {
         jvmTarget = '1.8'
     }
 
-    sourceSets {
+    sourceSets {   
         main.java.srcDirs += 'src/main/kotlin'
     }
 
